@@ -19,8 +19,46 @@
 
 # print(s)
 
+
+# anything in [is called a list] lists can contain other lists ["zach", [28, 156.5]]
 # student_grades = [9.1, 8.8, 7.5]
+# max_value = max(student_grades)
+# print(max_value)
+
+
+#listing number of times 10.0 occured in list
+# student_grades = [9.1, 8.8, 10.0, 7.7, 6.8, 8.0, 10.0, 8.1, 10.0, 9.9]
+ 
+# list_10 = student_grades.count(10.0)
+ 
+# print('10.0 occured', list_10, 'times in list')
+
+# mysum = sum(student_grades)
+# length = len(student_grades)
+# mean = mysum / length
+# print(mean)
+
+
+#returns string to uppercase it is method so needs to be called with ()
+# zach = 'hello'.upper()
+# print(zach)
 
 # RANGE CREATES A LIST OF NUMBERS
 # list(range(1,10)) will output [1,2,3,4,5,6,7,8,9]
 #list(range(1, 10, 2)) will output [1,3,5,7,9] counts happens every two items starting at one and ending at 9
+
+# monday_tempetures = [9.1, 8.8, 7.5]
+# student_grades = {"Marry": 9.1, "Sim": 8.8, "John": 7.5}
+
+# mysum = sum(student_grades.values())
+# length = len(student_grades)
+# mean = mysum / length
+# print(mean)
+# print(student_grades.keys())
+
+# TUPLES are inmutable and lists are mutable can't append or remove from tuples
+# monday_tempetures = (1, 4, 5)
+
+# #list
+# # monday_tempetures = [1, 4, 5]
+# print(monday_tempetures)
