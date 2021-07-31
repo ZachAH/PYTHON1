@@ -60,5 +60,17 @@
 # monday_tempetures = (1, 4, 5)
 
 # #list
-# # monday_tempetures = [1, 4, 5]
-# print(monday_tempetures)
+# monday_tempetures = [9.1, 8.8, 7.5]
+# # print(monday_tempetures)
+# #appends to end of list
+# monday_tempetures.append(8.1)
+# # print(monday_tempetures)
+# #clears list
+# # monday_tempetures.clear()
+
+# print(monday_tempetures.index(8.8))
+
+seconds = [1.2323442655, 1.4534345567, 1.023458894]
+current = 1.10001399445
+seconds.append(current)
+
