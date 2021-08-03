@@ -70,7 +70,15 @@
 
 # print(monday_tempetures.index(8.8))
 
-seconds = [1.2323442655, 1.4534345567, 1.023458894]
-current = 1.10001399445
-seconds.append(current)
+# seconds = [1.2323442655, 1.4534345567, 1.023458894]
+# current = 1.10001399445
+# seconds.append(current)
+
+# monday_tempetures = [9.1, 8.8, 7.5]
+
+def mean(mylist):
+    the_mean = sum(mylist) / len(mylist)
+    return the_mean
+
+print(mean([1, 4, 5]))
 
