@@ -169,11 +169,20 @@
 #     return "Hi %s" % name
 
 # function to return name with first letter capitalized
-def foo(name):
-    return "Hi %s" % name.title()
+# def foo(name):
+#     return "Hi %s" % name.title()
 
-name = 'zach'
+# name = 'zach'
 
-print(foo('zach'))
+# print(foo('zach'))
+
+# function to get name and surname and return in with first letter capitalized using user input
+def me(name, surname):
+    return f"Hello {name.title()} {surname.title()} ."
+
+name = input("Enter your name: ") 
+surname = input("Enter your surname: ")  
+print(me(name, surname))
+
     
 
