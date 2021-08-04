@@ -113,10 +113,67 @@
 # 
 
 #  IF LENGTH OF PASSWORD IS GREATER OR EQAUL TO 8 IT WILL PRINT TRUE OTHERWISE IT WILL PRINT FALSE 
-def foo(password):
-    if len(password)  >=8  :
-        return True
-    else :
-        return False
+# def foo(password):
+#     if len(password)  >=8  :
+#         return True
+#     else :
+#         return False
 
-print(foo('zacharyouiiou'))        
+# print(foo('zacharyouiiou'))     
+
+# def foo(temperature):
+#     if foo(temperature) >= 7:
+#         return "Warm"
+#     else:
+#         return "Cold"
+
+
+# if the temp is greater than 25 it will return hot if less than 25 but greater than 15 it will return warm if less than 15 it will return cold
+# def deg(temperature):
+#     if temperature >25:
+#         return "Hot"
+#     elif 25 >= temperature >= 15:
+#         return "Warm"
+#     else:
+#         return "Cold" 
+# print(deg(89)) 
+# print(deg(10)) 
+# print(deg(23))  
+# 
+# def weather_condition(temperature):
+#     if temperature > 7:
+#         return "warm"
+#     else:
+#         return "cold"
+
+# # converts users input from string to integer float otherwise it would take temperature as a string and compare it to an integer and throw an error float is better to use than int because you can also type decimals such as 6.9 instead of whold numbers
+# user_input = float(input("Enter temperature:"))   
+# print(weather_condition(user_input))
+# 
+
+# name = input("Enter your name: ")
+# surname = input("Enter your surname: ") 
+# when = "today"
+
+
+# message = f"Hello {name} {surname}. What's up {when}"
+# print(message)     
+      
+# name = input("Enter your name")
+
+# message = "hello %s" % name
+
+# print(message)
+
+# def foo(name):
+#     return "Hi %s" % name
+
+# function to return name with first letter capitalized
+def foo(name):
+    return "Hi %s" % name.title()
+
+name = 'zach'
+
+print(foo('zach'))
+    
+
