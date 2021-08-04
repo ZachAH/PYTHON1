@@ -76,9 +76,47 @@
 
 # monday_tempetures = [9.1, 8.8, 7.5]
 
-def mean(mylist):
-    the_mean = sum(mylist) / len(mylist)
-    return the_mean
+# def mean(mylist):
+#     the_mean = sum(mylist) / len(mylist)
+#     return the_mean
 
-print(mean([1, 4, 5]))
+# print(mean([1, 4, 6]))
 
+# def calculate_length(lst):
+#     return len(lst)
+
+# print(calculate_length([5, 6, 6, 9, 8, 7]))   
+# 
+# def mult(a):
+#     return a * a
+# print(mult(4))    
+
+# def conv(a):
+#     return a * 29.57353
+# print(conv(2))    
+
+# def mean(value):
+#     if type(value) == dict:
+#         the_mean = sum(value.values()) / len(value)
+#     else:
+#             the_mean = sum(value) / len(value)
+
+#     return the_mean 
+
+# def mean(value):
+#     if isinstance(value, dict):
+#         the_mean = sum(value.values()) / len(value)
+#     else:
+#             the_mean = sum(value) / len(value)
+
+#     return the_mean   
+# 
+
+#  IF LENGTH OF PASSWORD IS GREATER OR EQAUL TO 8 IT WILL PRINT TRUE OTHERWISE IT WILL PRINT FALSE 
+def foo(password):
+    if len(password)  >=8  :
+        return True
+    else :
+        return False
+
+print(foo('zacharyouiiou'))        
