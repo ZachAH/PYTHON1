@@ -13,7 +13,7 @@ while True:
     if user_input == "/end":
         break
     else:
-        results.append(user_input)
+        results.append(sentence_maker(user_input))
 
-print(results)        
+print(" ".join(results))        
 
