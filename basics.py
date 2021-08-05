@@ -203,25 +203,33 @@
 #     if color >=50:
 #         print(color)
 
+# colors = [11, 34.1, 98.2, 43, 45.1, 54, 54]
 
+# # for color in colors:
+# #     if isinstance(color, int): 
+# #         print(color)
+
+# for color in colors:
+#     if isinstance(color, int) and color >50:
+#         print(color)
  
 
-# def deg(temperature):
-#     if temperature >25:
-#         return "Hot"
-#     elif 25 >= temperature >= 15:
-#         return "Warm"
-#     else:
-#         return "Cold" 
-# print(deg(89)) 
-# print(deg(10)) 
-# print(deg(23))  
-# 
-# def weather_condition(temperature):
-#     if temperature > 7:
-#         return "warm"
-#     else:
-#         return "cold"
+# phone_numbers = {"John Smith": "+37682929928", "Marry Simpons": "+423998200919"}
+ 
+# for key, value in phone_numbers.items():
+#     print("{} has as phone number {}".format(key, value))
+
+# for key, value in phone_numbers.items():
+#     print("%s: %s" % (key,value))   
+
+# for i in [1, 2, 3]:
+#     print(i)
+
+# a = 3
+
+# while a > 0:
+#     print(1)
+#     print(2)
 
 
     
