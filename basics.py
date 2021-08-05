@@ -177,12 +177,52 @@
 # print(foo('zach'))
 
 # function to get name and surname and return in with first letter capitalized using user input
-def me(name, surname):
-    return f"Hello {name.title()} {surname.title()} ."
+# def me(name, surname):
+#     return f"Hello {name.title()} {surname.title()} ."
 
-name = input("Enter your name: ") 
-surname = input("Enter your surname: ")  
-print(me(name, surname))
+# name = input("Enter your name: ") 
+# surname = input("Enter your surname: ")  
+# print(me(name, surname))
+
+# monday_temperatures = [9.1, 8.8, 7.6]
+
+# # print(round(monday_temperatures[0]))
+# # print(round(monday_temperatures[1]))
+# # print(round(monday_temperatures[2]))
+
+# # looping through lists or string
+# for temperature in monday_temperatures:
+#     print(round(temperature))
+
+# for letter in 'hello':
+#     print(letter.title())   
+# 
+# colors = [11, 34, 98, 43, 45, 54, 54]
+
+# for color in colors:
+#     if color >=50:
+#         print(color)
+
+
+ 
+
+# def deg(temperature):
+#     if temperature >25:
+#         return "Hot"
+#     elif 25 >= temperature >= 15:
+#         return "Warm"
+#     else:
+#         return "Cold" 
+# print(deg(89)) 
+# print(deg(10)) 
+# print(deg(23))  
+# 
+# def weather_condition(temperature):
+#     if temperature > 7:
+#         return "warm"
+#     else:
+#         return "cold"
+
 
     
 
