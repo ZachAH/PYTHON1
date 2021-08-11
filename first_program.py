@@ -105,12 +105,14 @@
 
 
 # opens bear.txt saves it to content variable then closes file then saves the first 90 characters of that to new varible char
-myfile = open('bear.txt')
-content = myfile.read()
-myfile.close()
-char = content[:90]
+# myfile = open('bear.txt')
+# content = myfile.read()
+# myfile.close()
+# char = content[:90]
 
 
-# creating a new file called first.txt with writing permission as newfile then writing the first 90 characters of the bear text to it from the char varible
-with open('first.txt', 'w') as newfile:
-    newfile.write(char)
+# # creating a new file called first.txt with writing permission as newfile then writing the first 90 characters of the bear text to it from the char varible
+# with open('first.txt', 'w') as newfile:
+#     newfile.write(char)
+
+# # \n is a break line
