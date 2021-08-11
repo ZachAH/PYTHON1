@@ -42,7 +42,40 @@
 
 
 # a function that takes a list as paremter and returns the stings as floats and gives the user a sum of those floats
-def foo(lst):
-    return sum([float(i) for i in lst])
+# def foo(lst):
+#     return sum([float(i) for i in lst])
 
-print(foo(['5.6', '5.6']))    
+# print(foo(['5.6', '5.6']))    
+
+# def mean(*args):
+#     return sum(args) / len(args)
+
+
+# print(mean(1, 3, 4))    
+
+# def foo(*args):
+#     return sum(args) / len(args)
+
+# print(foo(10,20,30,40))
+# 
+
+# a function that takes an indefinite number of arguments then returns the argument all uppercase and sorts them from first to last alphabetical order (not a band reference )
+# def foo(*args):
+#     args = [x.upper() for x in args]
+#     return sorted(args)
+
+# print(foo('stupid', 'arrogant', 'zach', 'rachel'))      
+
+# opens text file ARG IS FILEPATH
+# myfile = open("fruit.txt")
+# # you can save the content in a varible
+# content = myfile.read()
+# # closes file so its not stored in RAM
+# myfile.close()
+
+# using with to open myfile and the defining the function inside of it...automatically closes file at end of function same as above function just more effiecent and dry
+with open("fruit.txt") as myfile:
+    content = myfile.read()
+
+print(content)
+
