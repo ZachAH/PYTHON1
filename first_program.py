@@ -39,3 +39,10 @@
 
 # print(foo(['zach', 89, 'rachel', 89, 67])
 # )
+
+
+# a function that takes a list as paremter and returns the stings as floats and gives the user a sum of those floats
+def foo(lst):
+    return sum([float(i) for i in lst])
+
+print(foo(['5.6', '5.6']))    
