@@ -74,8 +74,43 @@
 # myfile.close()
 
 # using with to open myfile and the defining the function inside of it...automatically closes file at end of function same as above function just more effiecent and dry
-with open("fruit.txt") as myfile:
-    content = myfile.read()
+# with open("fruit.txt") as myfile:
+#     content = myfile.read()
 
-print(content)
+# print(content)
 
+# creating and writing tomatoe to new file \ creates new line
+# with open("files.vegetables.txt", "w") as myfile:
+#     myfile.write('Tomatoe')
+#     myfile.write('\nOnion\nCucumber\nGarlic')
+
+
+# opening the bear.txt file
+# myfile = open('bear.txt')
+# # reading the bear.txt file and storing it in varible content
+# content = myfile.read()
+# # closing the file to free up storage in RAM
+# myfile.close()
+# # printing the first 90 characters of file
+# print(content[:90])
+
+# a functoin that gets a single string character and a filepath as parameters
+# then opens the file path, reads the file, and returns the occurences of the character 
+# def foo(character, filepath="bear.txt"):
+#     file = open(filepath)
+#     content = file.read()
+#     return content.count(character)
+
+# print(foo('e', 'bear.txt'))   
+
+
+# opens bear.txt saves it to content variable then closes file then saves the first 90 characters of that to new varible char
+myfile = open('bear.txt')
+content = myfile.read()
+myfile.close()
+char = content[:90]
+
+
+# creating a new file called first.txt with writing permission as newfile then writing the first 90 characters of the bear text to it from the char varible
+with open('first.txt', 'w') as newfile:
+    newfile.write(char)
